@@ -1,0 +1,36 @@
+body {
+  background: #ffffff;
+  margin: 0;
+  overflow-x: hidden; 
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.conteudoLateralEsquerda {
+  width: 18vw;
+  background: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+
+.conteudoCentral {
+  display: flex;
+  align-content: space-around;
+  width: 10vw;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.conteudoLateralDireita {
+  width: 42vw;
+  overflow-y: auto;
+}
+
+p {
+  margin: 0;
+}

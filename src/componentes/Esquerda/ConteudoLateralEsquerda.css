@@ -1,0 +1,55 @@
+
+.imagemInstagram {
+    display: flex;
+    justify-content: center;
+    align-items:center;    
+    width: 150px;
+    height: auto;
+    padding-left: 10px;
+    margin: 20px 0px;
+}
+
+.conteudoLateralEsquerda {
+  background-color: rgb(255, 255, 255);
+  border-right: 1px solid #f1f1f1;
+
+  font-size: 20px;
+
+}
+
+.separar{
+    margin: 15px;
+}
+  
+.icone_perfil{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content:flex-start;
+  width: 100%;
+    
+  }
+  
+.container {
+  display: flex;
+  align-items: center;
+  margin: 12px 0px; 
+  width: 280px;
+}
+  
+.container:hover{
+  border-radius: 10px;
+  background-color: #ccc;
+  width: 200px;
+  transition: 0.1s;
+  cursor: pointer;
+}
+  
+ul {
+  list-style-type: none;
+  padding-left: 5%;
+}
+
+strong {
+  font-weight: 700;
+}

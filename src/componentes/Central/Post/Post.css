@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Post {
+    max-width: 500px; 
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.conteudoHeaderPost p {
+    font-size: 11px;
+}
+
+.conteudoHeaderPost {
+    margin-left: 11px;
+}
+
+.Post .card-header {
+    background: #FFFF;
+    display: flex;
+    align-items: center;
+    height: 55px;
+    padding: 5px;
+}
+
+.card-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #DD2A7B;
+    padding: 3px;
+}
+
+.Post .card-body img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .Post {
+        max-width: 100%;
+    }
+}
+
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    font-size: 17px;
+    color: inherit;
+    cursor: pointer;
+}
+
+header {
+    padding: 5px 1px 0px 1px;
+
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.profile h3 {
+    cursor: pointer;
+}
+
+.Post input {
+     width: 100%;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 0px;
+
+}
+
+.card-footer .icons-1 {
+    display: flex;
+    gap: 16px;
+}
+    
+.icons-1 {
+    cursor: pointer;
+    align-items: center;
+}
+
+
+.like {
+    margin-top: 6px;
+}
+
+.like span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.legend {
+    margin: 1px 0px;
+}
+
+.legend p strong {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.traductor {
+    margin: 5px 0px;;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.comments {
+    color: rgb(92, 92, 92);
+    cursor: pointer;
+}
+
+.fake-comment {
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    flex: 1; 
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.fake-comment input {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.horizontal-line {
+    position: relative;
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 1px;
+    background-color: #ccc;
+    margin: 8px 0px;
+}

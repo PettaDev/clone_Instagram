@@ -1,0 +1,10 @@
+.ConteudoCentral {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 160%;
+  height: 100%;
+  background-color:#FAFAFA;
+  margin-left: 15%;
+}

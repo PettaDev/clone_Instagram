@@ -1,0 +1,37 @@
+.Stories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.Story {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-size: cover; /* Garante que a imagem de fundo cubra todo o elemento */
+    background-position: center; /* Centraliza a imagem de fundo */
+
+}
+
+.Story img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #DD2A7B;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 3px;
+    margin-top: 160px;
+}
+

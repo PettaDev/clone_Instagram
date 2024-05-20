@@ -1,0 +1,51 @@
+
+.PeopleSuggestion {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 5px 15px 2px 15px;
+}
+
+.suggestion-imagem-perfil {
+    margin-right: 15px;
+}
+
+
+.PeopleSuggestion img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    
+}
+
+.sugestaoInformacaoGenerica {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.suggestion-at-usuario {
+    color: #585858;
+
+}
+
+.suggestion-nome-usuario {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.follow {
+    margin-left: auto; 
+    color: #278efc;
+    cursor: pointer; 
+    font-weight: 500;
+    
+  }
+  
+  .follow:hover {
+    color: #085bb4; 
+    text-decoration: none !important; /* definir prioridade para decoração none */
+  }
+
